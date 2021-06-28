@@ -1,22 +1,8 @@
-import static ui.UIMenu.*;
+package ui;
 
 import  java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
-
-        Doctor myDoctor = new Doctor();
-        myDoctor.name = "Alejandro Rodriguez";
-        myDoctor.showId();
-        myDoctor.showName();
-
-        Doctor myDoctorAnn = new Doctor();
-        myDoctor.showId();
-
-        showMenu();
-
-    }
-
+public class UIMenu {
     public static void showMenu(){
         System.out.println("Welcome to My Appointments");
         System.out.println("Selecciona la opción deseada");
