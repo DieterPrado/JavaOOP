@@ -10,6 +10,12 @@ public class Main {
         System.out.println(myDoctor.name);
         System.out.println(myDoctor.speciality);
 
+        int i = 0;
+        int b = 2;
+        b = i;
+
+
+
 
     }
 
