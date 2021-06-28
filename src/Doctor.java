@@ -2,6 +2,7 @@ public class Doctor {
     static int id = 0;
     String name;
     String speciality;
+    String email;
 
     Doctor(){
         System.out.println("Construyendo el objeto doctor");

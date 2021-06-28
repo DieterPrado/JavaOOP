@@ -10,9 +10,13 @@ public class Main {
         System.out.println(myDoctor.name);
         System.out.println(myDoctor.speciality);
 
-        int i = 0;
-        int b = 2;
-        b = i;
+        Patient patient = new Patient("Alejandra", "alejandra@mail.com");
+        System.out.println(patient.name);
+        System.out.println(patient.email);
+        patient.weight = 60.5;
+        patient.height = 1.65;
+        System.out.println(patient.weight);
+        System.out.println(patient.height);
 
 
 
